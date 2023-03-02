@@ -16,6 +16,7 @@ function App() {
         <Route path="/technical" element={<Technical />} />
         <Route path="/nontechnical" element={<Nontechnical />} />
         <Route path="/" element={<Home />} />
+        <Route path="*" element={<Pagenotfound />} />
       </Routes>
     </CssBaseline>
   );
