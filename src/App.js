@@ -6,7 +6,6 @@ import Workshop from "./components/Workshop";
 import Technical from "./components/Technical";
 import Nontechnical from "./components/Nontechnical";
 import Home from "./components/Home";
-import Pagenotfound from "./components/Pagenotfound";
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
         <Route path="/technical" element={<Technical />} />
         <Route path="/nontechnical" element={<Nontechnical />} />
         <Route path="/" element={<Home />} />
-        <Route path="*" element={<Pagenotfound />} />
       </Routes>
     </CssBaseline>
   );
