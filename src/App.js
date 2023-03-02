@@ -6,6 +6,7 @@ import Workshop from "./components/Workshop";
 import Technical from "./components/Technical";
 import Nontechnical from "./components/Nontechnical";
 import Home from "./components/Home";
+import Pagenotfound from "./components/Pagenotfound";
 
 function App() {
   return (
